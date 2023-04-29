@@ -53,11 +53,11 @@ public	WebDriver driver;
 		driver = 	initializeBrowserAndOpenApplicationURL("firefox");
 		
 		
-		System.out.println("*************Browser Started*********");
+		System.out.println("*************getPageSource Method Browser Started*********");
 		
-		String pageSource = driver.getPageSource();
+	//	String pageSource = driver.getPageSource();
 		
-		System.out.println(pageSource);
+	//	System.out.println(pageSource);
 		
 		System.out.println("**********getPageSource Method Done**********");
 		
